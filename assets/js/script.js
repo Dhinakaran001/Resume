@@ -38,3 +38,11 @@ function openIcon(){
      menuIcon.style.backgroundColor = "white";
 }
 
+var sidebar = document.getElementById('navbarNav');
+
+    document.onclick = function(e){
+    if(e.target.id !== 'navbarNav')
+    {
+        sidebar.classList.remove('show');
+    }
+    }
