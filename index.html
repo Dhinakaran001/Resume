@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>RESUME</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+      <!-- navbar -->
+         <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand fw-semibold" href="#" style="color: #2196f3;">Dhinakaran</a>
+              <button onclick="openIcon()" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav" id="hide">
+                  <li class="nav-item mt-2 mx-2 active">
+                    <a class="nav-link" id="list1" onclick="openHome()" id="link1" href="#">Home</a>
+                  </li>
+                  <li class="nav-item mt-2 mx-2" id="res">
+                    <a class="nav-link" id="list2" onclick="openResume()"  href="#">Resume</a>
+                  </li>
+                  <li class="nav-item mt-2 mx-2">
+                    <a class="nav-link" id="list3" onclick="openPortfolio()"  href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item mt-2 ms-2">
+                    <a class="nav-link" id="list4" onclick="openContact()"  href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+
+        <!-- Home -->
+        <div class="container home-none" id="home">
+          <!-- Home -->
+            <div class="container home1">
+              <!-- user -->
+              <div class="row d-flex p-3" style="background-color: #2196f3; border-radius: 15px 15px 0px 0px;">
+                  <div class="col-md-6 text-center justify-content-center">
+                      <img src="assets/images/profile.png" height="300" width="250" alt="" class="mt-3 rounded-3">
+                  </div>
+                  <div class="col-md-6 text-center" style="padding: 0px;">
+                      <h1 class="display-1 mt-5">Dhinakaran</h1>
+                      <p class="text-center fw-semibold text-light fs-2" style="margin: 10px 0px 0px;">I'm <span class="element"></span></p>
+                      <nav class="nav justify-content-center mt-2" id="clip-path">
+                          <a class="nav-link" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                          <a class="nav-link" href="#"><i class="fa-brands fa-twitter"></i></a>
+                          <a class="nav-link" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                          <a class="nav-link" href=""><i class="fa-brands fa-instagram"></i></a>
+                      </nav>
+                  </div>
+              </div>
+              <!-- About-->
+              <div class="row py-4 bg-light" style="border-radius: 0px 0px 15px 15px;">
+                  <div class="col-md-6" id="about">
+                      <h3 class="fw-semibold fs-4" style="color: #49515d;">About <span class="text-primary fw-semibold">Me</span> </h3>
+                      <p style="font-size: 0.8rem;color: #49515d;">Hello! I'm Dhinakaran MERN stack developer i love development i did simple project in frontend and i created some template using html, css, bootstrap and javascript.</p>
+                      <div id="download" class="d-inline-block px-3 py-2 rounded-1">
+                          <a href="https://drive.google.com/drive/u/0/folders/101SVF9PGx0m4vpd1VWwiemMpvil2WdKa" >DOWNLOAD RESUME</a>
+                      </div>
+                  </div>
+                  <div class="col-md-6 d-flex" id="age">
+                      <div class="col-md-3">
+                          <p style="font-size: 0.9rem;color: #49515d;">Age</p>
+                          <p style="font-size: 0.9rem;color: #49515d;">Residence</p>
+                          <p style="font-size: 0.9rem;color: #49515d;">Address</p>
+                          <p style="font-size: 0.9rem;color: #49515d;">e-mail</p>
+                          <p style="font-size: 0.9rem;color: #49515d;">Phone</p>
+                      </div>
+                      <div class="col-md-6" id="ageName">
+                          <p style="font-size: 0.9rem; color: #9499a0;">22</p>
+                          <p style="font-size: 0.9rem; color: #9499a0;">India</p>
+                          <p style="font-size: 0.9rem; color: #9499a0;">TamilNadu, India</p>
+                          <p id="email"><a href="">karandhina708@gmail.com</a></p>
+                          <p style="font-size: 0.9rem; color: #9499a0;">+919080352865</p>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          <!-- footer -->
+          <div class="container mt-4">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p style="font-size: 0.7rem; color: #797e85;">@ Copy rights 2022-2023 All Rights Reservsd</p>
+                </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Resume -->
+        <div class="container resume-none" id="resume">
+          <!-- Resume -->
+          <div class="container resume1">
+            <div class="row pt-4 pb-3" style="background-color: #2196f3; border-radius: 15px 15px 0px 0px;">
+              <div class="col-md-12 text-center">
+                <h1 class="text-light fw-bold">Resume</h1>
+              </div>
+            </div>
+            <div class="row p-4 bg-light" style="border-radius: 0px 0px 15px 15px;">  
+              <!-- Education -->
+              <div class="col-md-6 my-4">
+                <h5 class="fw-semibold">Education</h5>
+                <div class="col-md-12" id="border">
+                  <div id="line1">
+                    <h5>Secondary School Leaving Certificate</h5>
+                    <p>2013 - 2015</p>
+                    <h6>Chinnasamy Ammal boys higher Secondary school Tiruppur</h6>
+                  </div>
+                  <div id="line2">
+                    <h5>Higher Secondary School</h5>
+                    <p>2015 - 2017</p>
+                    <h6>Chinnasamy Ammal boys higher Secondary school Tiruppur</h6>
+                  </div>
+                  <div id="line3">
+                    <h5>Bachelor in Engineering</h5>
+                    <p>2017 - 2021</p>
+                    <h6>B.E. ECE</h6>
+                    <h6>Rvs College of Engineering and technology, Coimbatore</h6>
+                  </div>
+                </div>
+              </div>
+              <!-- Experience -->
+              <div class="col-md-6 my-4">
+                <h5 class="fw-semibold">Experience</h5>
+                <div class="col-md-12" id="border">
+                  <div id="line1">
+                    <h5>MEARN Full Stack Development Course</h5>
+                    <p>6-Month</p>
+                    <h6>Be practical Tech Solutions <br>Bangalore</h6>
+                  </div>
+                  <div id="line2">
+                    <h5>MERN Full Stack Training</h5>
+                    <p>3-Month</p>
+                    <h6>Be practical Tech Solutions <br> Bangalore</h6>
+                    <h6></h6>
+                  </div>
+                  <div id="line3">
+                    <h5>Delivery Boy</h5>
+                    <p>2-Month</p>
+                    <h6>Domino's</h6>
+                    <h6>Bangalore</h6>
+                  </div>
+                </div>
+              </div>
+              <!-- progress-bar -->
+              <div class="col-md-12 my-4 text-center">
+                <h5 class="fw-semibold">Coding <span style="color: #2196f3;">Skills</span></h5>
+              </div>
+              <div class="col-md-6">
+                <h6 class="fw-bold" style="font-size: 0.8rem;margin: 0px;">HTML</h6>
+                <div class="progress mt-1 mb-2" style="height: 12px;border-radius: 0px;">
+                  <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <h6 class="fw-bold" style="font-size: 0.8rem;margin: 0px;">CSS</h6>
+                <div class="progress mt-1 mb-2" style="height: 12px;border-radius: 0px;">
+                  <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <h6 class="fw-bold" style="font-size: 0.8rem;margin: 0px;">BOOTSTRAP</h6>
+                <div class="progress mt-1 mb-2" style="height: 12px;border-radius: 0px;">
+                  <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <!-- progress-bar -->
+              <div class="col-md-6">
+                <h6 class="fw-bold" style="font-size: 0.8rem;margin: 0px;">JAVASCRIPT</h6>
+                <div class="progress mt-1 mb-2" style="height: 12px;border-radius: 0px;">
+                  <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <h6 class="fw-bold" style="font-size: 0.8rem;margin: 0px;">RECTJS</h6>
+                <div class="progress mt-1 mb-2" style="height: 12px;border-radius: 0px;">
+                  <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <h6 class="fw-bold" style="font-size: 0.8rem;margin: 0px;">NODEJS</h6>
+                <div class="progress mt-1 mb-2" style="height: 12px;border-radius: 0px;">
+                  <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <!-- download -->
+              <div class="col-md-12 text-center mt-5">
+                <div id="download" class="d-inline-block px-3 py-2 rounded-1">
+                  <a href="https://drive.google.com/drive/u/0/folders/101SVF9PGx0m4vpd1VWwiemMpvil2WdKa" >DOWNLOAD RESUME</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- footer -->
+          <div class="container mt-4">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p style="font-size: 0.7rem; color: #797e85;">@ Copy rights 2022-2023 All Rights Reservsd</p>
+                </div>
+            </div>
+          </div>
+        </div>
+        
+
+        <!-- Portfolio -->
+        <div class="container portfolio-none" id="portfolio">
+          <div class="container portfolio1">
+            <div class="row pt-4 pb-3" style="background-color: #2196f3; border-radius: 15px 15px 0px 0px;">
+              <div class="col-md-12 text-center">
+                <h1 class="text-light fw-bold">Portfolio</h1>
+              </div>
+            </div>
+
+            <div class="row" id="port-list">
+              <div class="col-md-12 mt-4 mb-3">
+                <ul class="nav justify-content-center">
+                  <li class="nav-item">
+                    <a class="nav-link" onclick="openAll()" href="#">All</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" onclick="openTemplate();" href="#">Template</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Video</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- images -->
+            <div class="row pb-4 px-2" id="all" style="border-radius: 0px 0px 15px 15px;">
+              <div class="col-md-4">
+                <div id="card">
+                  <div>
+                    <img src="assets/images/P-BTS.png" class="img-fluid" alt="">
+                  </div>
+                  <div id="overlayer">
+                    <p>Porfolio Project</p>
+                    <h6>Media</h6>
+                    <a href="https://bundle-bts.netlify.app"><i class="fa-solid fa-file-lines"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div id="card">
+                  <div>
+                    <img src="assets/images/P-FLEX.png" class="img-fluid" alt="">
+                  </div>
+                  <div id="overlayer">
+                    <p>Porfolio Project</p>
+                    <h6>Media</h6>
+                    <a href="https://adventure-flex.netlify.app"><i class="fa-solid fa-file-lines"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div id="card">
+                  <div>
+                    <img src="assets/images/P-GRID.png" class="img-fluid" alt="">
+                  </div>
+                  <div id="overlayer">
+                    <p>Porfolio Project</p>
+                    <h6>Media</h6>
+                    <a href="https://game-development-grid.netlify.app"><i class="fa-solid fa-file-lines"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div id="card">
+                  <div>
+                    <img src="assets/images/P-FOOD.png" class="img-fluid" alt="">
+                  </div>
+                  <div id="overlayer">
+                    <p>Porfolio Project</p>
+                    <h6>Media</h6>
+                    <a href="https://food-desktop.netlify.app"><i class="fa-solid fa-file-lines"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div id="card">
+                  <div>
+                    <img src="assets/images/P-ARGON.png" class="img-fluid" alt="">
+                  </div>
+                  <div id="overlayer">
+                    <p>Porfolio Project</p>
+                    <h6>Media</h6>
+                    <a href="https://argon-polygon.netlify.app"><i class="fa-solid fa-file-lines"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div id="card">
+                  <div>
+                    <img src="assets/images/P-cake.png" class="img-fluid" alt="">
+                  </div>
+                  <div id="overlayer">
+                    <p>Porfolio Project</p>
+                    <h6>Media</h6>
+                    <a href="https://dhina-bakery.netlify.app"><i class="fa-solid fa-file-lines"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+           <!-- footer -->
+        <div class="container mt-4">
+          <div class="row">
+              <div class="col-md-12 text-center">
+                  <p style="font-size: 0.7rem; color: #797e85;">@ Copy rights 2022-2023 All Rights Reservsd</p>
+              </div>
+          </div>
+        </div>
+        </div>
+        
+
+        <!-- Contact -->
+        <div class="container contact-none" id="contact">
+          <div class="container contact1">
+            <div class="row pt-4 pb-3" style="background-color: #2196f3; border-radius: 15px 15px 0px 0px;">
+              <div class="col-md-12 text-center">
+                <h1 class="text-light fw-bold">Contact</h1>
+              </div>
+            </div>
+            <div class="row p-4 bg-light" style="border-radius: 0px 0px 15px 15px;">
+              <!-- Map -->
+              <div class="col-md-6 my-4">
+                <h5 class="fw-semibold">Get in <span style="color: #2196f3;">Touch</span></h5>
+                <div class="col-md-12 mt-4" id="map">
+                  <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17667.233404350438!2d79.14065840261698!3d10.454806611323788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baaa7735081bc2f%3A0x20066be78313abdd!2sNarangiyapattu%2C%20Thettanviduthy%2C%20Tamil%20Nadu%20622302!5e0!3m2!1sen!2sin!4v1657276819486!5m2!1sen!2sin" class="img-fluid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+                  <div class="d-flex mt-5">
+                    <i class="fa-solid fa-location-dot me-4"></i>
+                    <p class="fw-bold">TamilNadu, India</p>
+                  </div>
+                  <div class="d-flex mt-2">
+                    <i class="fa-solid fa-envelope me-4"></i>
+                    <p class="fw-bold">karandhina708@gmail.com</p>
+                  </div>
+                  <div class="d-flex mt-2">
+                    <i class="fa-solid fa-phone me-4"></i>
+                    <p class="fw-bold">+919080352865</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Form -->
+              <div class="col-md-6 my-4">
+                <h5 class="fw-semibold">Contact <span style="color: #2196f3;">Form</span></h5>
+                <div class="col-md-12 mt-4">
+                  <form>
+                    <div class="mb-3">
+                      <label for="exampleInputName">Full Name</label>
+                      <input type="text" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail">Email Address</label>
+                      <input type="text" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleFormControlTextarea1">Message for Me</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div id="download" class="d-inline-block px-3 py-2 rounded-1" style="background-color: #2196f3;">
+                      <a href="#" class="text-light">SEND MESSAGE</a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- footer -->
+          <div class="container mt-4">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p style="font-size: 0.7rem; color: #797e85;">@ Copy rights 2022-2023 All Rights Reservsd</p>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="./assets/js/script.js"></script>
+        <script>
+          $(document).on('click', 'ul li', function(){
+              $(this).addClass('active').siblings().removeClass('active');
+          });
+
+          $(window).scroll(function(){
+            $("#navbar").toggleClass("scrolled",$(this).scrollTop()>20)
+          });
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script>
+
+          var options = {
+              strings: ['MERN developer', 'Web developer'],
+              typeSpeed: 70,
+              backSpeed:70,
+              loop:true,
+          }
+          
+
+          var typed = new Typed (".element", options); 
+        </script>
+    </body>
+</html>
