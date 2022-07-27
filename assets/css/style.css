@@ -51,20 +51,6 @@ nav #navbarNav ul>li:hover a::after, nav #navbarNav ul>li.active a::after{
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.home-none .home1 h1{
-    color: transparent;
-    -webkit-text-stroke: 2px #fff;
-    background: url(../images/text-bg.png);
-    background-size: 1000px;
-    -webkit-background-clip: text;
-    background-position: 0 0;
-    animation: back 23s linear infinite;
-}
-@keyframes back{
-    100%{
-        background-position: 2000px 0; 
-    }
-}
 #home{
     animation: home 1.3s;
 }
