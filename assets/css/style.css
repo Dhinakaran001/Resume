@@ -56,9 +56,9 @@ nav #navbarNav ul>li:hover a::after, nav #navbarNav ul>li.active a::after{
 }
 @keyframes home{
     from{
-        transform: translateX(-500px);
+        transform: translateY(400px);
     }to {
-        transform: translatex(0px);
+        transform: translateY(0px);
     }
 }
 #home{
